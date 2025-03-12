@@ -15,7 +15,7 @@ function getStoredTheme(): Theme {
   return "light";
 }
 
-export function useTheme(): [ theme: Theme, toggleTheme: () => void ] {
+export default function useTheme(): [ theme: Theme, toggleTheme: () => void ] {
   const [theme, setTheme] = useState<Theme>(getStoredTheme);
 
   useEffect(() => {

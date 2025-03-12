@@ -1,16 +1,40 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--background);
+}
+
+#root {
+  min-width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
 
 @theme inline {
+  --font-sans: "Inter", sans-serif;
+
   --color-background: var(--background);
+  --color-hover: var(--hover);
   --color-primary-text: var(--primary-text);
+  --color-secondary-text: var(--secondary-text);
+}
+
+.dark {
+  --background: rgb(3, 7, 18);
+  --hover: rgb(31, 41, 55);
+  --primary-text: rgb(249, 250, 251);
+  --secondary-text: rgb(156, 163, 175);
 }
 
 .light {
   --background: white;
   --primary-text: black;
-}
-
-.dark {
-  --background: black;
-  --primary-text: white;
 }

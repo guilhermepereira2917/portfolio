@@ -1,14 +1,9 @@
-import { useTheme } from "./useTheme"
+import Header from "./Header"
 
 export default function App() {
-  const [theme, toggleTheme] = useTheme()
-
   return (
-    <>
-      <button onClick={toggleTheme}>
-          Toggle {theme === "dark" ? "Light" : "Dark"} Mode
-        </button>
-      <h1 className='bg-background text-primary-text'>Hello, world.</h1>
-    </>
+    <div className="w-1/3 container text-primary-text">
+      <Header />
+    </div>
   )
 }
