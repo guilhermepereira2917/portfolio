@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import Select, { StylesConfig } from "react-select";
+import i18n from '../i18n';
 
 const options = [
   { value: 'en', label: 'en', fixed: true },
@@ -44,8 +45,16 @@ const customStyle: StylesConfig = {
   }),
 }
 
-export default function LanguageSelector(): ReactNode {
+export default function LanguageSelector(): ReactNode {  
+  const defaultValue = options.find((option) => option.value === i18n.language)
+
+  const handleOnChange = (newValue: any) => {
+    const newLanguage = newValue.value
+    localStorage.setItem("language", newLanguage);
+    i18n.changeLanguage(newLanguage)
+  };
+
   return (
-    <Select options={options} defaultValue={options[0]} isSearchable={false} styles={customStyle} />
+    <Select options={options} defaultValue={defaultValue} isSearchable={false} styles={customStyle} onChange={handleOnChange} />
   )
 }
