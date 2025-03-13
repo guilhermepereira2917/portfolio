@@ -46,7 +46,7 @@ const customStyle: StylesConfig = {
 }
 
 export default function LanguageSelector(): ReactNode {  
-  const defaultValue = options.find((option) => option.value === i18n.language)
+  const defaultValue = options.find((option) => option.value === i18n.language) || options[0]
 
   const handleOnChange = (newValue: any) => {
     const newLanguage = newValue.value

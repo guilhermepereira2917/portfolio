@@ -8,7 +8,7 @@ export default function Header(): ReactNode {
 
   return (
     <header className="w-full flex justify-between p-4 text-secondary-text font-semibold">
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <nav>{t("header.home")}</nav>
         <nav>{t("header.projects")}</nav>
         <nav>{t("header.contact")}</nav>

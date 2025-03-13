@@ -1,5 +1,12 @@
 {
   "header.home": "home",
   "header.projects": "projects",
-  "header.contact": "contact"
+  "header.contact": "contact",
+
+  "intro.greeting": "Hi, I'm Guilherme Pereira",
+  "intro.intro": "Fullstack developer from Brazil 🇧🇷",
+  "intro.about_me": "I like to develop fullstack aplications",
+
+  "contact.resume": "Resume",
+  "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf"
 }
