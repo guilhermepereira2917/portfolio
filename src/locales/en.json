@@ -8,5 +8,19 @@
   "intro.about_me": "I like to develop fullstack aplications",
 
   "contact.resume": "Resume",
-  "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf"
+  "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
+
+  "work.experience": "Work Experience",
+
+  "work.agro1.company_name": "Agro1 - Solutions for Agribusiness Management",
+  "work.agro1.job_title": "Delphi Software Engineer",
+  "work.agro1.bulet_point_1": "Developed and maintained desktop applications for the agribusiness sector, with modules including - financial control, inventory, fiscal documents, and more.",
+  "work.agro1.bulet_point_2": "Created an internal tool to automate the manual testing process, reducing test setup time from 40 minutes to just 10 minutes.",
+  "work.agro1.bulet_point_3": "Configured and implemented error reporting in Jenkins, improving visibility and efficiency in issue detection.",
+
+  "work.system.company_name": "System Management Systems",
+  "work.system.job_title": "Delphi and Java Software Engineer",
+  "work.system.bulet_point_1": "Developed and maintained desktop applications in Delphi and web applications in Java, with a focus on public sector systems and HR management.",
+  "work.system.bulet_point_2": "Led the development of a financial retirement simulation system.",
+  "work.system.bulet_point_3": "Migrated databases for 5 clients, ensuring data compatibility and integrity between old and new systems."  
 }

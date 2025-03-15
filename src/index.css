@@ -25,6 +25,7 @@ body {
   --color-hover: var(--hover);
   --color-primary-text: var(--primary-text);
   --color-secondary-text: var(--secondary-text);
+  --color-tertiary-text: var(--tertiary-text);
 }
 
 .dark {
@@ -32,6 +33,7 @@ body {
   --hover: rgb(31, 41, 55);
   --primary-text: rgb(249, 250, 251);
   --secondary-text: rgb(156, 163, 175);
+  --tertiary-text: rgb(209, 213, 219);
 }
 
 .light {

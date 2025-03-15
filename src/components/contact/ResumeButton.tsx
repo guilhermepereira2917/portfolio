@@ -6,7 +6,7 @@ export default function ResumeButton(): ReactNode {
   const { t, i18n } = useTranslation()
 
   const handleDownload = async () => {
-    const resumeToDownload = `/resume/${i18n.language}.pdf`
+    const resumeToDownload = `/resumes/${i18n.language}.pdf`
     const a = document.createElement("a");
     a.href = resumeToDownload;
     a.download = t("contact.resume_file_name");
