@@ -7,7 +7,7 @@ export default function Header(): ReactNode {
   const { t } = useTranslation();
 
   return (
-    <header className="w-full flex justify-between p-4 text-secondary-text font-semibold">
+    <header className="sticky top-0 z-50 bg-background w-full flex justify-between p-4 text-secondary-text font-semibold">
       <div className="flex gap-4 items-center">
         <nav>{t("header.home")}</nav>
         <nav>{t("header.projects")}</nav>
