@@ -10,7 +10,7 @@
   "contact.resume": "Resume",
   "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
 
-  "work.experience": "Work Experience",
+  "work.heading": "Work Experience",
 
   "work.agro1.company_name": "Agro1 - Solutions for Agribusiness Management",
   "work.agro1.job_title": "Delphi Software Engineer",
@@ -22,5 +22,14 @@
   "work.system.job_title": "Delphi and Java Software Engineer",
   "work.system.bulet_point_1": "Developed and maintained desktop applications in Delphi and web applications in Java, with a focus on public sector systems and HR management.",
   "work.system.bulet_point_2": "Led the development of a financial retirement simulation system.",
-  "work.system.bulet_point_3": "Migrated databases for 5 clients, ensuring data compatibility and integrity between old and new systems."  
+  "work.system.bulet_point_3": "Migrated databases for 5 clients, ensuring data compatibility and integrity between old and new systems.",
+
+  "projects.heading": "Projects",
+  "projects.source": "Source",
+
+  "project.url_shortener.name": "URL Shortener",
+  "project.url_shortener.description": "A lightweight and efficient URL shortener built with Java Spring for the backend and Vite with TypeScript for the frontend.",
+
+  "project.chess.name": "Spring Chess",
+  "project.chess.description": "Spring Chess is a work-in-progress chess game with its backend built with Java Spring, and a frontend written in Next.js and React. Integrated with Stockfish."
 }
