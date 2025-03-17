@@ -12,7 +12,9 @@ const customStyle: StylesConfig = {
     ...styles,
     backgroundColor: isFocused ? "var(--hover)" : "var(--background)",
     border: isFocused ? "1px solid var(--secondary-text)" : "1px solid var(--hover)",
-    boxShadow: "none",
+    boxShadow: "none",    
+    transition: "none",
+    WebkitTransition: "none",
     "&:hover": {
       border: "1px solid var(--secondary-text)",
       boxShadow: "none"
@@ -25,6 +27,7 @@ const customStyle: StylesConfig = {
   option: (styles, { isFocused }) => ({
     ...styles,
     backgroundColor: isFocused ? "var(--hover)" : "var(--background)",
+    color: isFocused ? "var(--primary-text)" : "var(--secondary-text)",
   }),
   menuList: (styles) => ({
     ...styles,

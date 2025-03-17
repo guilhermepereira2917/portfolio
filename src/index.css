@@ -33,6 +33,9 @@ body {
 }
 
 .light {
-  --background: white;
-  --primary-text: black;
+  --background: rgb(255, 255, 255);
+  --hover:  rgb(243, 244, 246);
+  --primary-text: rgb(3, 7, 18);
+  --secondary-text: rgb(107, 114, 128);
+  --tertiary-text: rgb(55, 65, 81);
 }
