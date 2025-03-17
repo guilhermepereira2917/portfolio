@@ -1,4 +1,33 @@
 {
   "header.projects": "projetos",
-  "header.contact": "contato"
+  "header.contact": "contato",
+
+  "intro.greeting": "Olá! Sou Guilherme Pereira",
+  "intro.intro": "Desenvolvedor Fullstack do Brasil 🇧🇷",
+  "intro.about_me": "Gosto de desenvolver aplicações fullstack",
+
+  "contact.resume": "Resume",
+  "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
+
+  "work.heading": "Experiência",
+
+  "work.agro1.company_name": "Agro1 - Soluções Para a Gestão do Agronegócio",
+  "work.agro1.job_title": "Programador Delphi",
+  "work.agro1.bulet_point_1": "Desenvolvi e mantive aplicações desktop voltadas ao agronegócio, com módulos multidisciplinares como controle financeiro, estoque, notas fiscais, entre outros.",
+  "work.agro1.bulet_point_2": "Desenvolvi ferramenta interna para automatização do processo de testes manuais, reduzindo o tempo de preparo de testes de 40 minutos para 10 minutos.",
+  "work.agro1.bulet_point_3": "Configurei e implementei reportes de erros no Jenkins durante o estágio de desenvolvimento, aumentando a eficiência na detecção de problemas.",
+
+  "work.system.company_name": "System Sistemas de Gestão",
+  "work.system.job_title": "Programador Delphi e Java",
+  "work.system.bulet_point_1": "Desenvolvi e mantive aplicações desktop Delphi e web em Java, com foco em sistemas públicos e RH.",
+  "work.system.bulet_point_2": "Liderei o desenvolvimento de um sistema financeiro de simulação de aposentadoria.",
+  "work.system.bulet_point_3": "Migrei bancos de dados de 5 clientes, garantindo compatibilidade e integridade dos sistemas.",
+
+  "projects.heading": "Projetos",
+  "projects.source": "Código",
+
+  "project.url_shortener.name": "Encurtador de URL",
+  "project.url_shortener.description": "Um simples encurtador de URL, construído com Java Spring para o backend e Vite com TypeScript para o frontend.",
+
+  "project.chess.description": "Spring Chess é um jogo de xadrez em andamento, com o backend desenvolvido em Java Spring e o frontend escrito em Next.js e React. Integrado com o Stockfish."
 }

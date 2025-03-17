@@ -5,7 +5,7 @@ import WorkTimeline from "./components/work/WorkTimeline"
 
 export default function App() {
   return (
-    <div className="w-[640px] max-w-screen text-primary-text">
+    <div className="w-[660px] max-w-screen text-primary-text">
       <Header />
       <Intro />
       <WorkTimeline />
