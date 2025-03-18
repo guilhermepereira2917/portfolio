@@ -10,7 +10,7 @@ export default function WorkTimeline(): ReactNode {
       <section className="relative mx-4 mt-2 border-2 border-hover rounded">
         <div className="absolute w-[1px] top-0 bottom-0 ml-[40px] -z-10 bg-hover" />
         {workExperiences.map((workExperience: WorkExperience): ReactNode => {
-          return <WorkComponent workExperience={workExperience} />
+          return <WorkComponent workExperience={workExperience} key={workExperience.name} />
         })}
       </section>
     </>
@@ -51,9 +51,9 @@ function WorkComponent({ workExperience }: WorkComponentProps): ReactNode {
         <h2 className="text-sm text-secondary-text">{t(`work.${name}.company_name`)}</h2>
 
         <ul className="mt-2 ml-4 pr-8 list-disc text-hei">
-          {buletPoints.map((buletPoint: string): ReactNode => {
+          {buletPoints.map((buletPoint: string, index: number): ReactNode => {
             return (
-              <li className="text-tertiary-text text-sm/5">{buletPoint}</li>
+              <li key={index} className="text-tertiary-text text-sm/5">{buletPoint}</li>
             )
           })}
         </ul>
