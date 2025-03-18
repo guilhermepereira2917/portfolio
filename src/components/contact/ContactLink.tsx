@@ -1,5 +1,5 @@
 import { SiGithub, SiGitlab } from "@icons-pack/react-simple-icons";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { ReactNode } from "react";
 
 interface ContactLinkProps {
@@ -23,4 +23,8 @@ export function GitlabLink(): ReactNode {
 
 export function LinkedinLink(): ReactNode {
   return <ContactLink href="https://www.linkedin.com/in/guilherme-pereira-0b77b8245/" icon={<Linkedin />} />
+}
+
+export function MailToLink(): ReactNode {
+  return <ContactLink href="mailto:guilhermepereira2917@gmail.com" icon={<Mail />} />
 }

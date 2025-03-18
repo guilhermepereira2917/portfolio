@@ -46,5 +46,10 @@
   "technology.kotlin": "Kotlin",
   "technology.react": "React",
   "technology.postgre": "PostgreSQL",
-  "technology.next": "Next.js"
+  "technology.next": "Next.js",
+
+  "contact.heading": "Contact me",
+  "contact.send_message": "Send Message",
+  "contact.loading": "Loading...",
+  "contact.thanks": "Thank you for your message!"
 }

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { GithubLink, GitlabLink, LinkedinLink } from "./ContactLink";
+import { GithubLink, GitlabLink, LinkedinLink, MailToLink } from "./ContactLink";
 import ResumeButton from "./ResumeButton";
 
 export default function Contact(): ReactNode {
@@ -9,6 +9,7 @@ export default function Contact(): ReactNode {
       <GithubLink />
       <GitlabLink />
       <LinkedinLink />
+      <MailToLink />
     </div>
   )
 }
