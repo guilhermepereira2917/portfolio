@@ -26,6 +26,7 @@
 
   "projects.heading": "Projects",
   "projects.source": "Source",
+  "projects.try_it_out": "Try it out",
 
   "project.url_shortener.name": "URL Shortener",
   "project.url_shortener.description": "A lightweight and efficient URL shortener built with Java Spring for the backend and Vite with TypeScript for the frontend.",

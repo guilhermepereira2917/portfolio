@@ -1,4 +1,5 @@
-import { Github, Gitlab, Linkedin } from "lucide-react";
+import { SiGithub, SiGitlab } from "@icons-pack/react-simple-icons";
+import { Linkedin } from "lucide-react";
 import { ReactNode } from "react";
 
 interface ContactLinkProps {
@@ -13,11 +14,11 @@ function ContactLink({ href, icon }: ContactLinkProps): ReactNode {
 }
 
 export function GithubLink(): ReactNode {
-  return <ContactLink href="https://github.com/guilhermepereira2917" icon={<Github />} />
+  return <ContactLink href="https://github.com/guilhermepereira2917" icon={<SiGithub />} />
 }
 
 export function GitlabLink(): ReactNode {
-  return <ContactLink href="https://gitlab.com/guilhermepereira2917" icon={<Gitlab />} />
+  return <ContactLink href="https://gitlab.com/guilhermepereira2917" icon={<SiGitlab />} />
 }
 
 export function LinkedinLink(): ReactNode {

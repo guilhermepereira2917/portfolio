@@ -1,4 +1,5 @@
-import { GithubIcon } from "lucide-react";
+import { SiGithub } from "@icons-pack/react-simple-icons";
+import { ExternalLink } from "lucide-react";
 import { ReactNode } from "react";
 import { useTranslation } from "react-i18next";
 import { Project } from "../../api/projects";
@@ -11,7 +12,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
   const { t } = useTranslation()
-  const { name, sourceUrl, technologies } = project
+  const { name, sourceUrl, tryItOutUrl, technologies } = project
 
   return (
     <div className="flex flex-col box-border basis-1/2 p-4 pb-2 bg-background border-2 border-hover rounded">
@@ -28,9 +29,16 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
         })}
       </div>
       <div className="grow" />
-      <a className="inline-flex items-center w-min bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer" href={sourceUrl} target="_blank">
-        <GithubIcon size={14} className="mr-1" /> {t("projects.source")}
-      </a>
+      <div className="flex gap-2">
+        <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer" href={sourceUrl} target="_blank">
+          <SiGithub size={14} className="mr-1" /> {t("projects.source")}
+        </a>
+        {tryItOutUrl && (
+          <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer" href={tryItOutUrl} target="_blank">
+            <ExternalLink size={14} className="mr-1" /> {t("projects.try_it_out")}
+          </a>
+        )}
+      </div>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import TechonologiesEnum from "./technologies"
 export interface Project {
   name: string,
   sourceUrl: string,
+  tryItOutUrl?: string,
   technologies: TechonologiesEnum[],
 }
 
@@ -10,6 +11,7 @@ export const projects: Project[] = [
   {
     name: "url_shortener",
     sourceUrl: "https://github.com/guilhermepereira2917/url-shortener",
+    tryItOutUrl: "https://url-shortener.guilhermepereiradev.com",
     technologies: [
       TechonologiesEnum.JAVA,
       TechonologiesEnum.SPRING,
@@ -36,6 +38,7 @@ export const projects: Project[] = [
   {
     name: "cobblemon",
     sourceUrl: "https://gitlab.com/cable-mc/cobblemon",
+    tryItOutUrl: "https://cobblemon.com",
     technologies: [
       TechonologiesEnum.JAVA,
       TechonologiesEnum.KOTLIN,
