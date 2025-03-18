@@ -31,5 +31,8 @@
   "project.url_shortener.description": "A lightweight and efficient URL shortener built with Java Spring for the backend and Vite with TypeScript for the frontend.",
 
   "project.chess.name": "Spring Chess",
-  "project.chess.description": "Spring Chess is a work-in-progress chess game with its backend built with Java Spring, and a frontend written in Next.js and React. Integrated with Stockfish."
+  "project.chess.description": "Spring Chess is a work-in-progress chess game with its backend built with Java Spring, and a frontend written in Next.js and React. Integrated with Stockfish.",
+
+  "project.cobblemon.name": "Cobblemon",
+  "project.cobblemon.description": "Cobblemon is a Minecraft mod written in Kotlin and available for Fabric and NeoForge, which blends Pokémon-inspired gameplay with Minecraft mechanics."
 }

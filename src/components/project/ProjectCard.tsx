@@ -12,7 +12,7 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
   const { name, sourceUrl } = project
 
   return (
-    <div className="flex flex-col w-1/2 p-4 pb-2 bg-background border-2 border-hover rounded">
+    <div className="flex flex-col box-border basis-1/2 p-4 pb-2 bg-background border-2 border-hover rounded">
       <div className="flex items-center h-40">
         <img src={`/projects/${name}.png`} className="p-4 m-auto max-h-40" />
       </div>

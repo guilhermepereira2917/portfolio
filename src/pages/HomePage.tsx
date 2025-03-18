@@ -11,7 +11,7 @@ export default function HomePage(): ReactNode {
       <Header />
       <Intro />
       <WorkTimeline />
-      <Projects />
+      <Projects show={2} />
     </Wrapper>
   )
 }

@@ -11,5 +11,9 @@ export const projects: Project[] = [
   {
     name: "chess",
     sourceUrl: "https://github.com/guilhermepereira2917/spring-chess",
+  },
+  {
+    name: "cobblemon",
+    sourceUrl: "https://gitlab.com/cable-mc/cobblemon",
   }
 ]
