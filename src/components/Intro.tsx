@@ -11,7 +11,7 @@ export default function Intro(): ReactNode {
       <p>{t("intro.intro")}</p>
       <p>{t("intro.about_me")}</p>
 
-      <Contact />
+      <Contact classname="mt-2" showResumeButton={true} />
     </section>
   )
 }

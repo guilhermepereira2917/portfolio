@@ -1,13 +1,15 @@
 import { ReactNode } from "react";
-import Header from "../components/Header";
-import Wrapper from "../components/Wrapper";
+import Wrapper from "../components/common/Wrapper";
 import ContactForm from "../components/contact/ContactForm";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 
 export default function ContactPage(): ReactNode {
   return (
     <Wrapper>
       <Header />
       <ContactForm />
+      <Footer />
     </Wrapper>
   )
 }

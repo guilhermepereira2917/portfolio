@@ -50,7 +50,7 @@ export default function ContactForm(): ReactNode {
           <input type="text" name="name" placeholder="Name" className={inputClassName} required />
           <input type="email" name="email" placeholder="Email" className={inputClassName} required />
         </div>
-        <textarea rows={8} name="message" placeholder="Leave feedback about the side, send job opportunities or just say hello!" className={`w-full mt-4 ${inputClassName}`} required></textarea>
+        <textarea rows={8} name="message" placeholder="Leave feedback about the site, send job opportunities or just say hello!" className={`w-full mt-4 ${inputClassName}`} required></textarea>
 
         <input type="checkbox" name="botcheck" className="hidden" />
 

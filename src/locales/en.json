@@ -51,5 +51,6 @@
   "contact.heading": "Contact me",
   "contact.send_message": "Send Message",
   "contact.loading": "Loading...",
-  "contact.thanks": "Thank you for your message!"
+  "contact.thanks": "Thank you for your message!",
+  "contact.error": "An error occurred, please try again later."
 }

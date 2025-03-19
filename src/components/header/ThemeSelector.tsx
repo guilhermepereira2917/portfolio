@@ -1,6 +1,6 @@
 import { Moon, Sun } from "lucide-react";
 import { ReactNode } from "react";
-import useTheme from "../api/useTheme";
+import useTheme from "../../api/useTheme";
 
 export default function ThemeSelector(): ReactNode {
   const [theme, toggleTheme] = useTheme()

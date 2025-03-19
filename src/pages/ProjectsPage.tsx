@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
-import Header from "../components/Header";
-import Wrapper from "../components/Wrapper";
+import Wrapper from "../components/common/Wrapper";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 import Projects from "../components/project/Projects";
 
 export default function ProjectsPage(): ReactNode {
@@ -8,6 +9,7 @@ export default function ProjectsPage(): ReactNode {
     <Wrapper>
       <Header />
       <Projects />
+      <Footer />
     </Wrapper>
   )
 }
