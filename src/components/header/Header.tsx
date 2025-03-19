@@ -13,12 +13,12 @@ export default function Header(): ReactNode {
 
   return (
     <header className="sticky top-0 z-50 bg-background w-full flex justify-between p-4 text-secondary-text font-semibold">
-      <div className="flex gap-4 items-center">
+      <div className="flex sm:gap-4 gap-2 items-center">
         <NavLink to="/" className={className}>{t("header.home")}</NavLink>
         <NavLink to="/projects" className={className}>{t("header.projects")}</NavLink>
         <NavLink to="/contact" className={className}>{t("header.contact")}</NavLink>
       </div>
-      <div className="flex gap-4">
+      <div className="flex sm:gap-4 gap-1">
         <LanguageSelector />
         <ThemeSelector />
       </div>

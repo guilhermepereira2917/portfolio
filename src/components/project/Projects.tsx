@@ -16,7 +16,7 @@ export default function Projects({ show }: ProjectsProps): ReactNode {
   return (
     <>
       <SectionHeading langKey="projects.heading" className="mt-4" />
-      <section className="grid grid-cols-2 gap-4 mx-4 mt-2">
+      <section className="grid sm:grid-cols-2 grid-cols-1 gap-4 mx-4 mt-2">
         {projectsToShow.map((project: Project): ReactNode => {
           return <ProjectCard project={project} key={project.name} />
         })}

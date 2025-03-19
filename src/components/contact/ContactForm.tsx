@@ -46,7 +46,7 @@ export default function ContactForm(): ReactNode {
     <div className="p-4">
       <h1 className="text-4xl font-extrabold mb-2">{t("contact.heading")}</h1>
       <form onSubmit={onSubmit} className="text-sm">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
           <input type="text" name="name" placeholder={t("contact.placeholder.name")} className={inputClassName} required />
           <input type="email" name="email" placeholder={t("contact.placeholder.email")} className={inputClassName} required />
         </div>
