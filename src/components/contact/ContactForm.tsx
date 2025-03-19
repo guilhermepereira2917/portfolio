@@ -47,10 +47,10 @@ export default function ContactForm(): ReactNode {
       <h1 className="text-4xl font-extrabold mb-2">{t("contact.heading")}</h1>
       <form onSubmit={onSubmit} className="text-sm">
         <div className="grid grid-cols-2 gap-4">
-          <input type="text" name="name" placeholder="Name" className={inputClassName} required />
-          <input type="email" name="email" placeholder="Email" className={inputClassName} required />
+          <input type="text" name="name" placeholder={t("contact.placeholder.name")} className={inputClassName} required />
+          <input type="email" name="email" placeholder={t("contact.placeholder.email")} className={inputClassName} required />
         </div>
-        <textarea rows={8} name="message" placeholder="Leave feedback about the site, send job opportunities or just say hello!" className={`w-full mt-4 ${inputClassName}`} required></textarea>
+        <textarea rows={8} name="message" placeholder={t("contact.placeholder.message")} className={`w-full mt-4 ${inputClassName}`} required></textarea>
 
         <input type="checkbox" name="botcheck" className="hidden" />
 

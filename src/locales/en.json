@@ -52,5 +52,9 @@
   "contact.send_message": "Send Message",
   "contact.loading": "Loading...",
   "contact.thanks": "Thank you for your message!",
-  "contact.error": "An error occurred, please try again later."
+  "contact.error": "An error occurred, please try again later.",
+
+  "contact.placeholder.name": "Name",
+  "contact.placeholder.email": "Email",
+  "contact.placeholder.message": "Leave feedback about the site, send job opportunities or just say hello!"
 }

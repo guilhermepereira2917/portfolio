@@ -6,8 +6,8 @@
   "intro.intro": "Desenvolvedor Fullstack do Brasil 🇧🇷",
   "intro.about_me": "Gosto de desenvolver aplicações fullstack",
 
-  "contact.resume": "Resume",
-  "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
+  "contact.resume": "Currículo",
+  "contact.resume_file_name": "Desenvolvedor Fullstack Guilherme Pereira.pdf",
 
   "work.heading": "Experiência",
 
@@ -29,5 +29,16 @@
   "project.url_shortener.name": "Encurtador de URL",
   "project.url_shortener.description": "Um simples encurtador de URL, construído com Java Spring para o backend e Vite com TypeScript para o frontend.",
 
-  "project.chess.description": "Spring Chess é um jogo de xadrez em andamento, com o backend desenvolvido em Java Spring e o frontend escrito em Next.js e React. Integrado com o Stockfish."
+  "project.chess.description": "Spring Chess é um jogo de xadrez em andamento, com o backend desenvolvido em Java Spring e o frontend escrito em Next.js e React. Integrado com o Stockfish.",
+
+  "project.cobblemon.description": "Cobblemon é um mod de Minecraft escrito em Kotlin e disponível para Fabric e NeoForge, que combina a jogabilidade inspirada em Pokémon com as mecânicas de Minecraft.",
+
+  "contact.heading": "Entre em contato",
+  "contact.send_message": "Enviar Mensagem",
+  "contact.loading": "Enviando...",
+  "contact.thanks": "Obrigado pela sua mensagem!",
+  "contact.error": "Aconteceu um erro, por favor tente novamente mais tarde.",
+
+  "contact.placeholder.name": "Nome",
+  "contact.placeholder.message": "Deixe feedback sobre o site, envie uma proposta ou apenas mande um olá!"
 }

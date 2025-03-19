@@ -38,15 +38,22 @@ function WorkComponent({ workExperience }: WorkComponentProps): ReactNode {
     buletPoints.push(t(buletPointLang))
   }
 
-  const startFormattedDate = new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(workExperience.startDate);
-  const endFormattedDate = new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(workExperience.endDate);
+  const dateTimeFormat = i18n.language == "en" ?
+    new Intl.DateTimeFormat("en-us", { month: "short", year: "numeric" }) :
+    new Intl.DateTimeFormat("pt", { month: "long", year: "numeric" })
+
+  const startFormattedDate = dateTimeFormat.format(workExperience.startDate);
+  const endFormattedDate = dateTimeFormat.format(workExperience.endDate);
 
   return (
     <div className="m-4 flex">
       <img src={imgSrc} className="rounded-full size-12" />
 
       <div className="ml-6">
-        <h3 className="text-xs text-secondary-text">{startFormattedDate} - {endFormattedDate}</h3>
+        <h3 className="text-xs text-secondary-text first-letter:capitalize">
+          <span className="inline-block first-letter:capitalize">{startFormattedDate}</span> - <span className="inline-block first-letter:capitalize">{endFormattedDate}</span>
+        </h3>
+
         <h2 className="text-sm">{t(`work.${name}.job_title`)}</h2>
         <h2 className="text-sm text-secondary-text">{t(`work.${name}.company_name`)}</h2>
 
