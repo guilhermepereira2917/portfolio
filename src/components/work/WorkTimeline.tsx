@@ -24,7 +24,7 @@ interface WorkComponentProps {
 function WorkComponent({ workExperience }: WorkComponentProps): ReactNode {
   const { t, i18n } = useTranslation()
 
-  const name = workExperience.name
+  const { name, startDate, endDate, url } = workExperience
   const imgSrc = `/companies/${name}.jpg`
 
   const buletPoints = []
@@ -42,12 +42,14 @@ function WorkComponent({ workExperience }: WorkComponentProps): ReactNode {
     new Intl.DateTimeFormat("en-us", { month: "short", year: "numeric" }) :
     new Intl.DateTimeFormat("pt", { month: "long", year: "numeric" })
 
-  const startFormattedDate = dateTimeFormat.format(workExperience.startDate);
-  const endFormattedDate = dateTimeFormat.format(workExperience.endDate);
+  const startFormattedDate = dateTimeFormat.format(startDate);
+  const endFormattedDate = dateTimeFormat.format(endDate);
 
   return (
     <div className="m-4 flex">
-      <img src={imgSrc} className="rounded-full size-12" />
+      <a href={url} target="_blank" className="size-12 aspect-square cursor-pointer">
+        <img src={imgSrc} className="rounded-full aspect-square" />
+      </a>
 
       <div className="ml-6">
         <h3 className="text-xs text-secondary-text first-letter:capitalize">
