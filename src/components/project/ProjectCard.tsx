@@ -30,11 +30,11 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
       </div>
       <div className="grow" />
       <div className="flex gap-2">
-        <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer" href={sourceUrl} target="_blank">
+        <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer hover:opacity-80 hover:transition-all" href={sourceUrl} target="_blank">
           <SiGithub size={14} className="mr-1" /> {t("projects.source")}
         </a>
         {tryItOutUrl && (
-          <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer" href={tryItOutUrl} target="_blank">
+          <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer hover:opacity-80 hover:transition-all" href={tryItOutUrl} target="_blank">
             <ExternalLink size={14} className="mr-1" /> {t("projects.try_it_out")}
           </a>
         )}

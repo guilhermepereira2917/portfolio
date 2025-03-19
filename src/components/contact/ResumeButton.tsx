@@ -17,7 +17,7 @@ export default function ResumeButton(): ReactNode {
   }
 
   return (
-    <button onClick={handleDownload} className="text-sm flex items-center font-bold cursor-pointer border-2 border-hover py-1 px-4 rounded">
+    <button onClick={handleDownload} className="text-sm flex items-center font-bold cursor-pointer hover:bg-hover hover:transition-all border-2 border-hover py-1 px-4 rounded">
       {t("contact.resume")} <FileUser className="size-5 ml-2" />
     </button>
   )

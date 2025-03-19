@@ -25,6 +25,7 @@
 
   "projects.heading": "Projetos",
   "projects.source": "Código",
+  "projects.try_it_out": "Experimente",
 
   "project.url_shortener.name": "Encurtador de URL",
   "project.url_shortener.description": "Um simples encurtador de URL, construído com Java Spring para o backend e Vite com TypeScript para o frontend.",

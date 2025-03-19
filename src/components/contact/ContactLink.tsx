@@ -9,7 +9,7 @@ interface ContactLinkProps {
 
 function ContactLink({ href, icon }: ContactLinkProps): ReactNode {
   return (
-    <a href={href} target="_blank" className="text-secondary-text">{icon}</a>
+    <a href={href} target="_blank" className="text-secondary-text hover:text-primary-text hover:transition-all">{icon}</a>
   )
 }
 

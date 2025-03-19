@@ -8,7 +8,7 @@ export default function Header(): ReactNode {
   const { t } = useTranslation();
 
   const className = ({ isActive }: NavLinkRenderProps) => {
-    return isActive ? "text-primary-text" : "text-secondary-text"
+    return `${isActive ? "text-primary-text" : "text-secondary-text"} hover:text-primary-text hover:transition-all`
   }
 
   return (

@@ -57,7 +57,7 @@ export default function ContactForm(): ReactNode {
         <button
           type="submit"
           disabled={loading}
-          className={`font-semibold mt-4 p-2 w-full bg-primary-text text-background rounded ${loading ? "cursor-not-allowed" : "cursor-pointer"}`}
+          className={`font-semibold mt-4 p-2 w-full bg-primary-text text-background rounded ${loading ? "cursor-not-allowed" : "cursor-pointer"} hover:opacity-80 hover:transition-all`}
         >
           {t(`contact.${loading ? "loading" : "send_message"}`)}
         </button>
