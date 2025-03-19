@@ -25,6 +25,7 @@
   "work.system.bulet_point_3": "Migrated databases for 5 clients, ensuring data compatibility and integrity between old and new systems.",
 
   "projects.heading": "Projects",
+  "projects.view_more": "view more",
   "projects.source": "Source",
   "projects.try_it_out": "Try it out",
 

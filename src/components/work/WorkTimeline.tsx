@@ -8,7 +8,7 @@ export default function WorkTimeline(): ReactNode {
     <>
       <SectionHeading langKey="work.heading" />
       <section className="relative mx-4 mt-2 border-2 border-hover rounded">
-        <div className="absolute w-[1px] top-0 bottom-0 ml-[40px] -z-10 bg-hover" />
+        <div className="absolute w-[1px] top-0 bottom-0 ml-[42px] -z-10 bg-hover" />
         {workExperiences.map((workExperience: WorkExperience): ReactNode => {
           return <WorkComponent workExperience={workExperience} key={workExperience.name} />
         })}
@@ -47,7 +47,7 @@ function WorkComponent({ workExperience }: WorkComponentProps): ReactNode {
 
   return (
     <div className="m-4 flex">
-      <a href={url} target="_blank" className="size-12 aspect-square cursor-pointer">
+      <a href={url} target="_blank" className="size-[52px] aspect-square cursor-pointer">
         <img src={imgSrc} className="rounded-full aspect-square" />
       </a>
 
