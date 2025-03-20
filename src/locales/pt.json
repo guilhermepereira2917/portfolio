@@ -4,7 +4,7 @@
 
   "intro.greeting": "Olá! Sou Guilherme Pereira",
   "intro.intro": "Desenvolvedor Fullstack do Brasil 🇧🇷",
-  "intro.about_me": "Gosto de desenvolver aplicações fullstack",
+  "intro.about_me": "Adoro transformar ideias em aplicações funcionais e eficientes. Seja desenvolvendo APIs com Spring Boot ou criando interfaces modernas com React!",
 
   "contact.resume": "Currículo",
   "contact.resume_file_name": "Desenvolvedor Fullstack Guilherme Pereira.pdf",
@@ -33,7 +33,11 @@
 
   "project.chess.description": "Spring Chess é um jogo de xadrez em andamento, com o backend desenvolvido em Java Spring e o frontend escrito em Next.js e React. Integrado com o Stockfish.",
 
+  "project.cobblemon.name": "Cobblemon (Colaborador)",
   "project.cobblemon.description": "Cobblemon é um mod de Minecraft escrito em Kotlin e disponível para Fabric e NeoForge, que combina a jogabilidade inspirada em Pokémon com as mecânicas de Minecraft.",
+
+  "project.portfolio.name": "Portfólio",
+  "project.portfolio.description": "Exatamente o portfólio que você está vendo agora!",
 
   "contact.heading": "Entre em contato",
   "contact.send_message": "Enviar Mensagem",

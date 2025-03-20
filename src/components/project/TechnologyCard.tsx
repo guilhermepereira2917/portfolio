@@ -1,4 +1,4 @@
-import { SiAmazonwebservices, SiCoffeescript, SiKotlin, SiNextdotjs, SiPostgresql, SiReact, SiSpring, SiTailwindcss, SiTypescript, SiVite } from "@icons-pack/react-simple-icons";
+import { SiAmazonwebservices, SiCoffeescript, SiGithub, SiKotlin, SiNextdotjs, SiPostgresql, SiReact, SiSpring, SiTailwindcss, SiTypescript, SiVite } from "@icons-pack/react-simple-icons";
 import { ReactNode } from "react";
 import { useTranslation } from "react-i18next";
 import TechonologiesEnum from "../../api/technologies";
@@ -15,6 +15,7 @@ const technologiesIcons = new Map<TechonologiesEnum, ReactNode>([
   [TechonologiesEnum.KOTLIN, <SiKotlin size={iconSize} />],
   [TechonologiesEnum.REACT, <SiReact size={iconSize} />],
   [TechonologiesEnum.POSTGRE, <SiPostgresql size={iconSize} />],
+  [TechonologiesEnum.OPEN_SOURCE, <SiGithub size={iconSize} />],
 ])
 
 interface TechonologyCardProps {
@@ -28,7 +29,7 @@ export default function TechonologyCard({ technology }: TechonologyCardProps): R
   const { t } = useTranslation()
 
   return (
-    <div className="flex items-center justify-center gap-1 w-min px-2 py-0.5 bg-hover text-primary-text rounded">
+    <div className="flex items-center justify-center gap-1 w-min px-2 py-0.5 bg-hover text-primary-text whitespace-nowrap rounded">
       {icon}
       <span className="text-xs font-medium">{t(`technology.${technology}`)}</span>
     </div>

@@ -5,7 +5,7 @@
 
   "intro.greeting": "Hi, I'm Guilherme Pereira",
   "intro.intro": "Fullstack developer from Brazil 🇧🇷",
-  "intro.about_me": "I like to develop fullstack aplications",
+  "intro.about_me": "I love turning ideas into functional and efficient fullstack applications. Whether it's crafting APIs with Spring Boot or creating sleek frontends with React!",
 
   "contact.resume": "Resume",
   "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
@@ -35,8 +35,11 @@
   "project.chess.name": "Spring Chess",
   "project.chess.description": "Spring Chess is a work-in-progress chess game with its backend built with Java Spring, and a frontend written in Next.js and React. Integrated with Stockfish.",
 
-  "project.cobblemon.name": "Cobblemon",
+  "project.cobblemon.name": "Cobblemon (Colaborator)",
   "project.cobblemon.description": "Cobblemon is a Minecraft mod written in Kotlin and available for Fabric and NeoForge, which blends Pokémon-inspired gameplay with Minecraft mechanics.",
+
+  "project.portfolio.name": "Portfolio",
+  "project.portfolio.description": "The very portfolio you're looking at right now!",
 
   "technology.java": "Java",
   "technology.spring": "Spring",
@@ -48,6 +51,7 @@
   "technology.react": "React",
   "technology.postgre": "PostgreSQL",
   "technology.next": "Next.js",
+  "technology.open_source": "Open Source",
 
   "contact.heading": "Contact me",
   "contact.send_message": "Send Message",

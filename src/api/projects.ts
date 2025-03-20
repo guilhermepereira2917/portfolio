@@ -42,6 +42,18 @@ export const projects: Project[] = [
     technologies: [
       TechonologiesEnum.JAVA,
       TechonologiesEnum.KOTLIN,
+      TechonologiesEnum.OPEN_SOURCE,
+    ]
+  },
+  {
+    name: "portfolio",
+    sourceUrl: "https://github.com/guilhermepereira2917/portfolio",
+    technologies: [
+      TechonologiesEnum.TYPESCRIPT,
+      TechonologiesEnum.VITE,
+      TechonologiesEnum.REACT,
+      TechonologiesEnum.TAILWIND,
+      TechonologiesEnum.AWS,
     ]
   }
 ]

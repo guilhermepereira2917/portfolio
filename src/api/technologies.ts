@@ -9,6 +9,7 @@ enum TechonologiesEnum {
   KOTLIN = "kotlin",
   REACT = "react",
   POSTGRE = "postgre",
+  OPEN_SOURCE = "open_source",
 }
 
 export default TechonologiesEnum

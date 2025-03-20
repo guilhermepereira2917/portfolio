@@ -17,7 +17,9 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
   return (
     <div className="flex flex-col box-border basis-1/2 p-4 pb-2 bg-background border-2 border-hover rounded">
       <div className="flex items-center h-40">
-        <img src={`/projects/${name}.png`} className="p-4 m-auto max-h-40" />
+        <a className="flex items-center w-full" href={project.tryItOutUrl} target="_blank">
+          <img src={`/projects/${name}.png`} className="p-4 m-auto max-h-40" />
+        </a>
       </div>
       <h3 className="text-primary-text text-bold">{t(`project.${name}.name`)}</h3>
       <p className="text-xs text-secondary-text">{t(`project.${name}.description`)}</p>
