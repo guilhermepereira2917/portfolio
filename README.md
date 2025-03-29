@@ -18,8 +18,8 @@ Make sure you have **Node.js** and **npm** installed on your system.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/guilhermepereira2917/portfolio.git
+   cd portfolio
    ```
 2. Install dependencies:
    ```bash
