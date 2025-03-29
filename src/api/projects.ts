@@ -46,6 +46,30 @@ export const projects: Project[] = [
     ]
   },
   {
+    name: "image_processing",
+    sourceUrl: "https://github.com/guilhermepereira2917/image-processing",
+    tryItOutUrl: "https://image-processing.guilhermepereiradev.com",
+    technologies: [
+      TechonologiesEnum.TYPESCRIPT,
+      TechonologiesEnum.VITE,
+      TechonologiesEnum.REACT,
+      TechonologiesEnum.TAILWIND,
+      TechonologiesEnum.AWS,
+    ]
+  },
+  {
+    name: "webfishing",
+    sourceUrl: "https://github.com/guilhermepereira2917/webfishing",
+    tryItOutUrl: "https://webfishing.guilhermepereiradev.com",
+    technologies: [
+      TechonologiesEnum.TYPESCRIPT,
+      TechonologiesEnum.VITE,
+      TechonologiesEnum.REACT,
+      TechonologiesEnum.TAILWIND,
+      TechonologiesEnum.AWS,
+    ]
+  },
+  {
     name: "portfolio",
     sourceUrl: "https://github.com/guilhermepereira2917/portfolio",
     technologies: [

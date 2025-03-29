@@ -38,6 +38,12 @@
   "project.cobblemon.name": "Cobblemon (Colaborator)",
   "project.cobblemon.description": "Cobblemon is a Minecraft mod written in Kotlin and available for Fabric and NeoForge, which blends Pokémon-inspired gameplay with Minecraft mechanics.",
 
+  "project.image_processing.name": "Image Processing",
+  "project.image_processing.description": "This project offers a variety of image filters, with a focus on code readability to help learners understand and code different filtering techniques.",
+
+  "project.webfishing.name": "WEBFISHING",
+  "project.webfishing.description": "A website that lists all the fishes, baits, and lures available in the PC game WEBFISHING, featuring a UI styled to match the game's design.",
+
   "project.portfolio.name": "Portfolio",
   "project.portfolio.description": "The very portfolio you're looking at right now!",
 
