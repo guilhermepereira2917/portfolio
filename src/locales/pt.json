@@ -3,8 +3,14 @@
   "header.contact": "contato",
 
   "intro.greeting": "Olá! Sou Guilherme Pereira",
-  "intro.intro": "Desenvolvedor Fullstack do Brasil 🇧🇷",
-  "intro.about_me": "Adoro transformar ideias em aplicações funcionais e eficientes. Seja desenvolvendo APIs com Spring Boot ou criando interfaces modernas com React!",
+  "intro.intro": "Desenvolvedor Fullstack do Rio Grande do Sul, Brasil 🇧🇷",
+  "intro.about_me": "Sou um desenvolvedor fullstack com experiência em Delphi e Java, focado em sistemas desktop e web. Atualmente, gosto de transformar ideias em aplicações funcionais e eficientes, seja criando APIs com Spring Boot ou interfaces modernas com React!",
+  "intro.more_1": "Atuo no desenvolvimento e manutenção de aplicações desktop e sistemas web há aproximadamente 3 anos, sempre buscando aprimoramento com certificações na área. Minha experiência mais recente foi em sistemas voltados ao agronegócio, onde implementei ferramentas para otimizar processos internos, como automação de testes manuais e reportes de erros no Jenkins, melhorando a eficiência na detecção de problemas.",
+  "intro.more_2": "Também liderei o desenvolvimento de sistemas de gestão e a migração de bancos de dados para garantir compatibilidade e integridade. Durante esse período, fui responsável por mais de 100 chamados de suporte, buscando sempre soluções rápidas e eficazes para os clientes.",
+  "intro.more_3": "Atualmente, curso Análise e Desenvolvimento de Sistemas para ampliar ainda mais meus conhecimentos técnicos. Estou sempre em busca de novos desafios para aplicar minhas habilidades e contribuir para o sucesso dos projetos e empresas com os quais colaboro.",
+
+  "intro.read_more": "Ler mais",
+  "intro.read_less": "Ler menos",
 
   "contact.resume": "Currículo",
   "contact.resume_file_name": "Desenvolvedor Fullstack Guilherme Pereira.pdf",
@@ -13,15 +19,23 @@
 
   "work.agro1.company_name": "Agro1 - Soluções Para a Gestão do Agronegócio",
   "work.agro1.job_title": "Programador Delphi",
-  "work.agro1.bulet_point_1": "Desenvolvi e mantive aplicações desktop voltadas ao agronegócio, com módulos multidisciplinares como controle financeiro, estoque, notas fiscais, entre outros.",
-  "work.agro1.bulet_point_2": "Desenvolvi ferramenta interna para automatização do processo de testes manuais, reduzindo o tempo de preparo de testes de 40 minutos para 10 minutos.",
-  "work.agro1.bulet_point_3": "Configurei e implementei reportes de erros no Jenkins durante o estágio de desenvolvimento, aumentando a eficiência na detecção de problemas.",
+  "work.agro1.bullet_point_1": "Desenvolvi e mantive aplicações desktop voltadas ao agronegócio, com módulos multidisciplinares como controle financeiro, estoque, notas fiscais, entre outros.",
+  "work.agro1.bullet_point_2": "Desenvolvi uma ferramenta interna para automatizar os testes manuais da equipe de QA, reduzindo o tempo de preparo de testes de 40 minutos para 10 minutos.",
+  "work.agro1.bullet_point_3": "Configurei e implementei reportes de erros no Jenkins durante o estágio de desenvolvimento, aumentando a eficiência na detecção de problemas.",
 
   "work.system.company_name": "System Sistemas de Gestão",
   "work.system.job_title": "Programador Delphi e Java",
-  "work.system.bulet_point_1": "Desenvolvi e mantive aplicações desktop Delphi e web em Java, com foco em sistemas públicos e RH.",
-  "work.system.bulet_point_2": "Liderei o desenvolvimento de um sistema financeiro de simulação de aposentadoria.",
-  "work.system.bulet_point_3": "Migrei bancos de dados de 5 clientes, garantindo compatibilidade e integridade dos sistemas.",
+  "work.system.bullet_point_1": "Desenvolvi e mantive aplicações desktop Delphi e web em Java, com foco em sistemas públicos e RH.",
+  "work.system.bullet_point_2": "Liderei o desenvolvimento de um sistema financeiro que simulava todas as modalidades de aposentadoria para cerca de 2.000 funcionários da Prefeitura de Erechim.",
+  "work.system.bullet_point_3": "Migrei bancos de dados de 5 clientes, garantindo compatibilidade entre versões e integridade dos dados.",
+
+  "education.heading": "Educação",
+
+  "education.uri.course_name": "Bacharelado em Análise e Desenvolvimento de Sistemas",
+  "education.uri.instituition_name": "URI (Universidade Regional Integrada do Alto Uruguai e das Missões) - Erechim",
+
+  "education.ifrs.course_name": "Curso Técnico em Informática",
+  "education.ifrs.instituition_name": "IFRS (Instituto Federal do Rio Grande do Sul) - Campus Erechim",
 
   "projects.heading": "Projetos",
   "projects.view_more": "ver mais",

@@ -4,25 +4,40 @@
   "header.contact": "contact",
 
   "intro.greeting": "Hi, I'm Guilherme Pereira",
-  "intro.intro": "Fullstack developer from Brazil 🇧🇷",
-  "intro.about_me": "I love turning ideas into functional and efficient fullstack applications. Whether it's crafting APIs with Spring Boot or creating sleek frontends with React!",
+  "intro.intro": "Fullstack Developer from Rio Grande do Sul, Brazil 🇧🇷",
+  "intro.about_me": "I am a fullstack developer with experience in Delphi and Java, focused on desktop and web systems. Currently, I enjoy turning ideas into functional and efficient applications, whether by creating APIs with Spring Boot or modern interfaces with React!",
+  "intro.more_1": "I have been developing and maintaining desktop applications and web systems for approximately 3 years, always striving for improvement through courses. My most recent experience was in agribusiness systems, where I implemented tools to optimize internal processes, such as automating manual tests and error reporting in Jenkins, improving issue detection efficiency.",
+  "intro.more_2": "I have also led the development of management systems and database migrations to ensure compatibility and integrity. During this period, I was responsible for handling over 100 support tickets, always aiming for quick and effective solutions for clients.",
+  "intro.more_3": "I am currently pursuing a degree in Software Analysis and Development to further expand my technical knowledge. I am always looking for new challenges to apply my skills and contribute to the success of the projects and companies I collaborate with.",
+
+  "intro.read_more": "Read more",
+  "intro.read_less": "Read less",
+
 
   "contact.resume": "Resume",
   "contact.resume_file_name": "Fullstack Developer Guilherme Pereira.pdf",
 
-  "work.heading": "Work Experience",
-
+  "work.heading": "Work",
+  
   "work.agro1.company_name": "Agro1 - Solutions for Agribusiness Management",
   "work.agro1.job_title": "Delphi Software Engineer",
-  "work.agro1.bulet_point_1": "Developed and maintained desktop applications for the agribusiness sector, with modules including - financial control, inventory, fiscal documents, and more.",
-  "work.agro1.bulet_point_2": "Created an internal tool to automate the manual testing process, reducing test setup time from 40 minutes to just 10 minutes.",
-  "work.agro1.bulet_point_3": "Configured and implemented error reporting in Jenkins, improving visibility and efficiency in issue detection.",
-
+  "work.agro1.bullet_point_1": "Developed and maintained desktop applications for agribusiness, covering multidisciplinary modules such as financial control, inventory, invoicing, and more.",
+  "work.agro1.bullet_point_2": "Developed an internal tool to automate QA team’s manual testing, reducing test preparation time from 40 minutes to 10 minutes.",
+  "work.agro1.bullet_point_3": "Configured and implemented error reporting in Jenkins during the development stage, increasing efficiency in issue detection.",
+  
   "work.system.company_name": "System Management Systems",
   "work.system.job_title": "Delphi and Java Software Engineer",
-  "work.system.bulet_point_1": "Developed and maintained desktop applications in Delphi and web applications in Java, with a focus on public sector systems and HR management.",
-  "work.system.bulet_point_2": "Led the development of a financial retirement simulation system.",
-  "work.system.bulet_point_3": "Migrated databases for 5 clients, ensuring data compatibility and integrity between old and new systems.",
+  "work.system.bullet_point_1": "Developed and maintained Delphi desktop applications and Java web systems, focusing on public systems and HR.",
+  "work.system.bullet_point_2": "Led the development of a financial system that simulated all retirement modalities for approximately 2,000 employees of Erechim City Hall.",
+  "work.system.bullet_point_3": "Migrated databases for 5 clients, ensuring version compatibility and data integrity.",
+  
+  "education.heading": "Education",
+
+  "education.uri.course_name": "Bachelor's in Software Analysis and Development",
+  "education.uri.instituition_name": "URI Erechim (Integrated Regional University of Alto Uruguai and the Missions)",
+
+  "education.ifrs.course_name": "Technical Course in Information Technology",
+  "education.ifrs.instituition_name": "IFRS Erechim (Federal Institute of Rio Grande do Sul)",
 
   "projects.heading": "Projects",
   "projects.view_more": "view more",
