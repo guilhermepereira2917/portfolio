@@ -18,13 +18,13 @@
   "work.heading": "Experiência",
 
   "work.agro1.company_name": "Agro1 - Soluções Para a Gestão do Agronegócio",
-  "work.agro1.job_title": "Programador Delphi",
+  "work.agro1.job_title": "Desenvolvedor Delphi",
   "work.agro1.bullet_point_1": "Desenvolvi e mantive aplicações desktop voltadas ao agronegócio, com módulos multidisciplinares como controle financeiro, estoque, notas fiscais, entre outros.",
   "work.agro1.bullet_point_2": "Desenvolvi uma ferramenta interna para automatizar os testes manuais da equipe de QA, reduzindo o tempo de preparo de testes de 40 minutos para 10 minutos.",
   "work.agro1.bullet_point_3": "Configurei e implementei reportes de erros no Jenkins durante o estágio de desenvolvimento, aumentando a eficiência na detecção de problemas.",
 
   "work.system.company_name": "System Sistemas de Gestão",
-  "work.system.job_title": "Programador Delphi e Java",
+  "work.system.job_title": "Desenvolvedor Delphi e Java",
   "work.system.bullet_point_1": "Desenvolvi e mantive aplicações desktop Delphi e web em Java, com foco em sistemas públicos e RH.",
   "work.system.bullet_point_2": "Liderei o desenvolvimento de um sistema financeiro que simulava todas as modalidades de aposentadoria para cerca de 2.000 funcionários da Prefeitura de Erechim.",
   "work.system.bullet_point_3": "Migrei bancos de dados de 5 clientes, garantindo compatibilidade entre versões e integridade dos dados.",
