@@ -51,13 +51,16 @@
   "project.chess.description": "Spring Chess is a work-in-progress chess game with its backend built with Java Spring, and a frontend written in Next.js and React. Integrated with Stockfish.",
 
   "project.cobblemon.name": "Cobblemon (Colaborator)",
-  "project.cobblemon.description": "Cobblemon is a Minecraft mod written in Kotlin and available for Fabric and NeoForge, which blends Pokémon-inspired gameplay with Minecraft mechanics.",
+  "project.cobblemon.description": "Minecraft mod with around <strong>10 million downloads</strong>, written in Kotlin and available for Fabric and NeoForge, combining Pokémon-inspired gameplay with Minecraft mechanics.",
 
   "project.image_processing.name": "Image Processing",
   "project.image_processing.description": "This project offers a variety of image filters, with a focus on code readability to help learners understand and code different filtering techniques.",
 
   "project.webfishing.name": "WEBFISHING",
   "project.webfishing.description": "A website that lists all the fishes, baits, and lures available in the PC game WEBFISHING, featuring a UI styled to match the game's design.",
+
+  "project.med_summaries.name": "Med Summaries",
+  "project.med_summaries.description": "Platform focused on summarizing medical content, designed to facilitate studying. Growing project with over 100 registered interested users.",
 
   "project.portfolio.name": "Portfolio",
   "project.portfolio.description": "The very portfolio you're looking at right now!",
@@ -70,8 +73,11 @@
   "technology.aws": "Aws",
   "technology.kotlin": "Kotlin",
   "technology.react": "React",
+  "technology.express": "Express",
   "technology.postgre": "PostgreSQL",
-  "technology.next": "Next.js",
+  "technology.next": "Next.js",  
+  "technology.firebase": "Firebase",
+  "technology.stripe": "Stripe",
   "technology.open_source": "Open Source",
 
   "contact.heading": "Contact me",

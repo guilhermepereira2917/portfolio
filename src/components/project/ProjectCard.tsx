@@ -1,7 +1,7 @@
 import { SiGithub } from "@icons-pack/react-simple-icons";
 import { ExternalLink } from "lucide-react";
 import { ReactNode } from "react";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import { Project } from "../../api/projects";
 import TechonologiesEnum from "../../api/technologies";
 import TechonologyCard from "./TechnologyCard";
@@ -22,7 +22,12 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
         </a>
       </div>
       <h3 className="text-primary-text text-bold">{t(`project.${name}.name`)}</h3>
-      <p className="text-xs text-secondary-text">{t(`project.${name}.description`)}</p>
+      <p className="text-xs text-secondary-text">
+        <Trans
+          i18nKey={`project.${name}.description`}
+          components={{ bold: <strong /> }}
+        />
+      </p>
       <div className="flex flex-wrap gap-1 mt-2">
         {technologies.map((technology: TechonologiesEnum): ReactNode => {
           return (
@@ -32,9 +37,11 @@ export default function ProjectCard({ project }: ProjectCardProps): ReactNode {
       </div>
       <div className="grow" />
       <div className="flex gap-2">
-        <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer hover:opacity-80 hover:transition-all" href={sourceUrl} target="_blank">
-          <SiGithub size={14} className="mr-1" /> {t("projects.source")}
-        </a>
+        {sourceUrl && (
+          <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer hover:opacity-80 hover:transition-all" href={sourceUrl} target="_blank">
+            <SiGithub size={14} className="mr-1" /> {t("projects.source")}
+          </a>
+        )}
         {tryItOutUrl && (
           <a className="inline-flex items-center bg-primary-text text-xs text-background font-bold py-1 px-2 mt-4 rounded cursor-pointer hover:opacity-80 hover:transition-all" href={tryItOutUrl} target="_blank">
             <ExternalLink size={14} className="mr-1" /> {t("projects.try_it_out")}

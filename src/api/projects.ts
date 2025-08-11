@@ -2,12 +2,34 @@ import TechonologiesEnum from "./technologies"
 
 export interface Project {
   name: string,
-  sourceUrl: string,
+  sourceUrl?: string,
   tryItOutUrl?: string,
   technologies: TechonologiesEnum[],
 }
 
 export const projects: Project[] = [
+  {
+    name: "med_summaries",
+    tryItOutUrl: "https://med-summaries.com",
+    technologies: [
+      TechonologiesEnum.TYPESCRIPT,
+      TechonologiesEnum.EXPRESS,
+      TechonologiesEnum.REACT,
+      TechonologiesEnum.NEXT,
+      TechonologiesEnum.STRIPE,
+      TechonologiesEnum.FIREBASE,
+    ]
+  },
+  {
+    name: "cobblemon",
+    sourceUrl: "https://gitlab.com/cable-mc/cobblemon/-/merge_requests/?sort=created_date&state=merged&author_username=guilhermepereira2917&first_page_size=20",
+    tryItOutUrl: "https://cobblemon.com",
+    technologies: [
+      TechonologiesEnum.JAVA,
+      TechonologiesEnum.KOTLIN,
+      TechonologiesEnum.OPEN_SOURCE,
+    ]
+  },
   {
     name: "url_shortener",
     sourceUrl: "https://github.com/guilhermepereira2917/url-shortener",
@@ -33,16 +55,6 @@ export const projects: Project[] = [
       TechonologiesEnum.REACT,
       TechonologiesEnum.NEXT,
       TechonologiesEnum.TAILWIND,
-    ]
-  },
-  {
-    name: "cobblemon",
-    sourceUrl: "https://gitlab.com/cable-mc/cobblemon",
-    tryItOutUrl: "https://cobblemon.com",
-    technologies: [
-      TechonologiesEnum.JAVA,
-      TechonologiesEnum.KOTLIN,
-      TechonologiesEnum.OPEN_SOURCE,
     ]
   },
   {

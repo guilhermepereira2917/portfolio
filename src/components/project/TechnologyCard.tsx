@@ -1,4 +1,20 @@
-import { SiAmazonwebservices, SiCoffeescript, SiGithub, SiKotlin, SiNextdotjs, SiPostgresql, SiReact, SiSpring, SiTailwindcss, SiTypescript, SiVite } from "@icons-pack/react-simple-icons";
+import {
+  SiAmazonwebservices,
+  SiCoffeescript,
+  SiExpress,
+  SiFirebase,
+  SiGithub,
+  SiKotlin,
+  SiNextdotjs,
+  SiPostgresql,
+  SiReact,
+  SiSpring,
+  SiStripe,
+  SiTailwindcss,
+  SiTypescript,
+  SiVite
+} from "@icons-pack/react-simple-icons";
+
 import { ReactNode } from "react";
 import { useTranslation } from "react-i18next";
 import TechonologiesEnum from "../../api/technologies";
@@ -11,10 +27,13 @@ const technologiesIcons = new Map<TechonologiesEnum, ReactNode>([
   [TechonologiesEnum.VITE, <SiVite size={iconSize} />],
   [TechonologiesEnum.TAILWIND, <SiTailwindcss size={iconSize} />],
   [TechonologiesEnum.AWS, <SiAmazonwebservices size={iconSize} />],
+  [TechonologiesEnum.FIREBASE, <SiFirebase size={iconSize} />],
   [TechonologiesEnum.NEXT, <SiNextdotjs size={iconSize} />],
   [TechonologiesEnum.KOTLIN, <SiKotlin size={iconSize} />],
   [TechonologiesEnum.REACT, <SiReact size={iconSize} />],
+  [TechonologiesEnum.EXPRESS, <SiExpress size={iconSize} />],
   [TechonologiesEnum.POSTGRE, <SiPostgresql size={iconSize} />],
+  [TechonologiesEnum.STRIPE, <SiStripe size={iconSize} />],
   [TechonologiesEnum.OPEN_SOURCE, <SiGithub size={iconSize} />],
 ])
 
