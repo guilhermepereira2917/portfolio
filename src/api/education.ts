@@ -8,14 +8,14 @@ export interface Education {
 export const educationExperiences: Education[] = [
   {
     name: "uri",
-    startDate: new Date("Jan 2022"),
-    endDate: new Date("Dec 2025"),
+    startDate: new Date(2022, 0),
+    endDate: new Date(2025, 11),
     url: "https://www.uricer.edu.br/site/",
   },
   {
     name: "ifrs",
-    startDate: new Date("Jan 2019"),
-    endDate: new Date("Dec 2021"),
+    startDate: new Date(2019, 0),
+    endDate: new Date(2021, 11),
     url: "https://ifrs.edu.br",
   },
 ]
