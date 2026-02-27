@@ -9,6 +9,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: "cobblemon",
+    sourceUrl: "https://gitlab.com/cable-mc/cobblemon/-/merge_requests/?sort=created_date&state=merged&author_username=guilhermepereira2917&first_page_size=20",
+    tryItOutUrl: "https://cobblemon.com",
+    technologies: [
+      TechonologiesEnum.JAVA,
+      TechonologiesEnum.KOTLIN,
+      TechonologiesEnum.OPEN_SOURCE,
+    ]
+  },
+  {
     name: "med_summaries",
     tryItOutUrl: "https://med-summaries.com",
     technologies: [
@@ -18,16 +28,6 @@ export const projects: Project[] = [
       TechonologiesEnum.NEXT,
       TechonologiesEnum.STRIPE,
       TechonologiesEnum.FIREBASE,
-    ]
-  },
-  {
-    name: "cobblemon",
-    sourceUrl: "https://gitlab.com/cable-mc/cobblemon/-/merge_requests/?sort=created_date&state=merged&author_username=guilhermepereira2917&first_page_size=20",
-    tryItOutUrl: "https://cobblemon.com",
-    technologies: [
-      TechonologiesEnum.JAVA,
-      TechonologiesEnum.KOTLIN,
-      TechonologiesEnum.OPEN_SOURCE,
     ]
   },
   {

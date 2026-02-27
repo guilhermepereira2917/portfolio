@@ -9,7 +9,7 @@ export const educationExperiences: Education[] = [
   {
     name: "uri",
     startDate: new Date(2022, 0),
-    endDate: new Date(2025, 11),
+    endDate: new Date(2026, 11),
     url: "https://www.uricer.edu.br/site/",
   },
   {

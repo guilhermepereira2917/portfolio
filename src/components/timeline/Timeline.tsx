@@ -5,7 +5,7 @@ export interface TimelineEntryData {
   id: string,
   imgSrc: string,
   startDate: Date,
-  endDate: Date,
+  endDate?: Date,
   title: string,
   subTitle: string,
   bulletPoints?: string[],
@@ -34,7 +34,7 @@ interface TimelineEntryProps {
 }
 
 function TimelineEntry({ data }: TimelineEntryProps): ReactNode {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
 
   const { imgSrc, title, subTitle, startDate, endDate, bulletPoints, url } = data
 
@@ -43,7 +43,7 @@ function TimelineEntry({ data }: TimelineEntryProps): ReactNode {
     new Intl.DateTimeFormat("pt", { month: "long", year: "numeric" })
 
   const startFormattedDate = dateTimeFormat.format(startDate);
-  const endFormattedDate = dateTimeFormat.format(endDate);
+  const endFormattedDate = endDate ? dateTimeFormat.format(endDate) : t("timeline.present");
 
   return (
     <div className="m-4 flex">

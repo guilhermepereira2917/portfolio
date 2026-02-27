@@ -17,6 +17,18 @@
 
   "work.heading": "Experiência",
 
+"work.tmr.company_name": "TMR TI - Consultoria e Desenvolvimento de Software",
+"work.tmr.job_title": "Desenvolvedor Full Stack",
+"work.tmr.bullet_point_1": "Desenvolvimento e manutenção de aplicações empresariais utilizando Delphi no backend e React na construção de interfaces web modernas.",
+"work.tmr.bullet_point_2": "Implementação de novas funcionalidades atuando em toda a stack, integrando frontend, regras de negócio e banco de dados.",
+"work.tmr.bullet_point_3": "Levantamento de requisitos junto aos clientes e tradução de regras de negócio em soluções escaláveis e de fácil manutenção.",
+
+  "work.oystr.company_name": "Oystr - Robôs Inteligentes",
+  "work.oystr.job_title": "Desenvolvedor Java",
+  "work.oystr.bullet_point_1": "Projetei e implementei robôs de RPA utilizando Java para automatizar operações jurídicas repetitivas, incluindo envio de protocolos em massa e extração de dados de sistemas judiciais.",
+  "work.oystr.bullet_point_2": "Atuei na integração de sistemas e na automação de fluxos de trabalho, garantindo confiabilidade, escalabilidade e desempenho dos processos automatizados.",
+  "work.oystr.bullet_point_3": "Aumentei a eficiência das operações jurídicas por meio da redução de intervenção manual e da minimização de erros de processamento.",
+
   "work.agro1.company_name": "Agro1 - Soluções Para a Gestão do Agronegócio",
   "work.agro1.job_title": "Desenvolvedor Delphi",
   "work.agro1.bullet_point_1": "Desenvolvi e mantive aplicações desktop voltadas ao agronegócio, com módulos multidisciplinares como controle financeiro, estoque, notas fiscais, entre outros.",
@@ -48,7 +60,7 @@
   "project.chess.description": "Spring Chess é um jogo de xadrez em andamento, com o backend desenvolvido em Java Spring e o frontend escrito em Next.js e React. Integrado com o Stockfish.",
 
   "project.cobblemon.name": "Cobblemon (Colaborador)",
-  "project.cobblemon.description": "Mod de Minecraft com cerca de <strong>10 milhões de downloads</strong> escrito em Kotlin e disponível para Fabric e NeoForge, que combina a jogabilidade inspirada em Pokémon com as mecânicas de Minecraft.",
+  "project.cobblemon.description": "Mod de Minecraft mais de <strong>40 milhões de downloads</strong> combinados entre Modrinth e CurseForge, escrito em Kotlin e disponível para Fabric e NeoForge, que combina a jogabilidade inspirada em Pokémon com as mecânicas de Minecraft.",
 
   "project.image_processing.description": "Demonstração de uma variedade de técnicas de filtragem de imagens, com foco na legibilidade do código para ajudar estudantes a entender e implementar diferentes filtros.",
 
@@ -58,6 +70,8 @@
 
   "project.portfolio.name": "Portfólio",
   "project.portfolio.description": "Exatamente o portfólio que você está vendo agora!",
+
+  "timeline.present": "Atualmente",
 
   "contact.heading": "Entre em contato",
   "contact.send_message": "Enviar Mensagem",

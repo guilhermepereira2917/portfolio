@@ -1,11 +1,22 @@
 export interface WorkExperience {
   name: string,
   startDate: Date,
-  endDate: Date,
+  endDate?: Date,
   url: string,
 }
 
 export const workExperiences: WorkExperience[] = [
+  {
+    name: "tmr",
+    startDate: new Date(2026, 1),
+    url: "https://tmrti.com.br/",
+  },
+  {
+    name: "oystr",
+    startDate: new Date(2025, 8),
+    endDate: new Date(2026, 0),
+    url: "https://oystr.com.br",
+  },
   {
     name: "agro1",
     startDate: new Date(2023, 10),
